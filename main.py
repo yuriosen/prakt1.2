@@ -2,5 +2,8 @@ def maxx(sp):
     return max(sp)
 
 
-a = [int(i) for i in input().split()]
+n = int(input())
+a = []
+for i in range(n):
+    a.append(int(input()))
 print(maxx(a))
