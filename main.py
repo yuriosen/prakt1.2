@@ -3,7 +3,7 @@ def maxx(sp):
 
 
 n = int(input())
-a = []
+a = list()
 for i in range(n):
     a.append(int(input()))
 print(maxx(a))
